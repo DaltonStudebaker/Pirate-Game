@@ -1,0 +1,32 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    max-width: 950px;
+    background-image: url('https://st2.depositphotos.com/8410634/11156/i/950/depositphotos_111560766-stock-photo-pirate-and-nautical-themed-grunge.jpg');
+}
+
+h1 {
+    font-size: 60px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+p {
+    font-size: 40px;
+	margin-bottom:10px;
+}
+
+#gameboard {
+	position:relative;
+	margin:0 auto 40px auto;
+	width:500px;
+	height:500px;
+}
+
+#gameboard div {
+	position:absolute;  
+	box-sizing: border-box;         
+	background: #0b22a3;
+	border: 1px solid darkgoldenrod;
+	width:50px;
+	height:50px;
+}
